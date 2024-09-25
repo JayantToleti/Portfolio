@@ -256,7 +256,7 @@ nav #menu li a:hover {
 }
 
 .header-image {
-      width: 300px; /* Adjust the width as needed */
+      width: 150px; /* Adjust the width as needed */
       height: auto; /* Maintain aspect ratio */
       border-radius: 10%; /* Rounded corners */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
@@ -280,7 +280,7 @@ nav #menu li a:hover {
       border-bottom: 2px solid #fff;
       border-right: 2px solid #fff;
       -webkit-transform: translate(-50%, 0) rotate(45deg);
-      animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+      transform: translate(-50%, 0) rotate(45deg);      animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
 
 @keyframes fade_move_down {
@@ -632,3 +632,97 @@ textarea:focus {
 .next p {
       text-align: right;
 }
+
+.projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  .project-item {
+      width: calc(50% - 20px);
+      margin-bottom: 40px;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #212121;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgb(45, 45, 45);
+  }
+  
+  .project-details {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+      font-size: 0.9em;
+      color: #978f8f;
+  }
+  
+  .project-description {
+      font-size: 0.95em;
+      line-height: 1.5;
+  }
+  .view-all-projects {
+      text-align: center;
+      margin-top: 40px;
+  }
+  
+  .btn-view-all {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+  }
+  
+  .btn-view-all:hover {
+      background-color: #555;
+  }
+  
+  .publications {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+  
+  .publication-item {
+      background-color: #333131;
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+  }
+  
+  .publication-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ieee-logo {
+      
+      top: 120px;
+      right: 10px;
+      width: 100px;
+      height: auto;
+  }
+  
+  .conference-name {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 10px;
+  }
+  
+  .doi-link {
+      color: #007bff;
+      text-decoration: none;
+  }
+  
+  .doi-link:hover {
+      text-decoration: underline;
+  }
+  
