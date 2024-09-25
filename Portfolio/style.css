@@ -737,7 +737,7 @@ textarea:focus {
       margin-bottom: 20px;
       padding: 20px;
       border-radius: 8px;
-      background-color: #f8f8f8;
+      background-color: #212121;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
