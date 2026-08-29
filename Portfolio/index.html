@@ -1,493 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="Jayant">
-
-      <title>Jayant Toleti</title>
-
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="style.css">
-
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-
-      <!-- terminal effect -->
-      <script src="t.min.js"></script>
-
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="animate.css">
-      <script src="wow.min.js"></script>
-
-      <!-- Custom CSS for Roadmap and Footer -->
-
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-      
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jayant">
+  <title>Jayant Toleti</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-      <div class="wrapper">
+  <div class="wrapper">
 
-            <!--------------- navbar starts here --------------->
-            <nav>
-                  <span id="brand">
-                        <a href="index.html">Jayant Toleti</a>
-                  </span>
+    <!-- navbar -->
+    <nav>
+      <span id="brand"><a href="index.html">Jayant Toleti</a></span>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://github.com/JayantToleti">Github</a></li>
+        <li><a href="Assets/Jayant_Toleti_Resume.pdf">Resume</a></li>
+      </ul>
+      <div id="toggle"><div class="span">Menu</div></div>
+    </nav>
 
-                  <ul id="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="https://github.com/JayantToleti">Github</a></li>
-                        <!-- <li><a href="about.html">About me</a></li> -->
-                        <!-- <li><a href="contact.html">Contact</a></li> -->
-                         <li><a href="Assets\Jayant_Toleti_Resume.pdf">Resume</a></li>
-                  </ul>
+    <div id="resize">
+      <div class="close-btn">close</div>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://github.com/JayantToleti">Github</a></li>
+        <li><a href="Assets/Jayant_Toleti_Resume.pdf">Resume</a></li>
+      </ul>
+    </div>
 
-                  <div id="toggle">
-                        <div class="span">Menu</div>
-                  </div>
-
-            </nav>
-
-            <div id="resize">
-                <div class="close-btn">close</div>
-
-                <ul id="menu">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="https://github.com/JayantToleti">Github</a></li>
-                      <!-- <li><a href="about.html">about me<span>.</span></a></li> -->
-                      <!-- <li><a href="contact.html">contact<span>.</span></a></li> -->
-                      <li><a href="Assets\Jayant_Toleti_Resume.pdf">Resume</a></li>
-                </ul>
-          </div>
-            <!--------------- navbar ends here --------------->
-
-
-
-            <!--------------- hero section starts here --------------->
-            <div class="hero">
-                  <div class="header">
-                        <img src="Assets\Jayant_Toleti.jpg" alt="Jayant Toleti" class="header-image">
-                        <div>
-                              <h1>Jayant Toleti</h1>
-                              <h5>Hyderabad, India</h5>
-                        </div>
-                  </div>
-            </div>
-
-            <div class="scroll-down"></div>
-            <!--------------- hero section ends here --------------->
-
-            <!--------------- about me section starts here --------------->
-            <div class="container-fluid">
-                  <br><br><br>
-
-                  <h6><b>About Me</b></h6>
-                  <div class="container">
-                        <br>
-                        <div class="hr">
-                              <div class="row"></div>
-                        </div>
-                        <br>
-                        <p>Hello! I'm Jayant Toleti, a passionate AI enthusiast and an aspiring engineer with a keen interest in developing innovative solutions using artificial intelligence and machine learning. Currently, I'm pursuing my Bachelor's in Computer Science and Engineering with a focus on Artificial Intelligence at Amrita Vishwa Vidyapeetham, Chennai, India
-                        </p>
-                        <p> I am always eager to learn and grow, continually seeking opportunities to apply my skills in meaningful ways. Whether it's through collaborative projects, internships, or personal endeavors, I strive to make a positive impact in the field of AI and beyond.  
-                        </p>
-                  </div>
-            </div>
-            <!--------------- about me section ends here --------------->
-            <br>
-            <br>
-
-            <div class="container-fluid">
-                  <h6>Experience</h6>
-                  <div class="container">
-                      <br>
-                      <div class="hr">
-                          <div class="row"></div>
-                      </div>
-                      <br>
-                      <div class="roadmap">
-                          <div class="roadmap-node">
-                              <div class="roadmap-content">
-                                  <h4>Software Development Engineer Intern</h4>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                      <h5>IBM Cloud</h5>
-                                      <div class="roadmap-date" style="font-weight: bold; margin-left: 20px;">Januaty 2025 – July 2025<br>Bengaluru, India
-                                      </div>
-                                  </div>
-                                  <br>
-                                  <ul>
-                                      <li>Developed a Capacity Monitoring tool for Network Links present in data-centers across the globe.</li>
-                                      <li>Improved Root-Cause Analysis and simplified troubleshooting by providing real-time insights into link utilization trends and historical anomalies.</li>
-                                      <li>Built intuitive UI components for SSOT to enable Bulk actions across network interfaces, streamlining operational workflows.</li>
-                                  </ul>
-                              </div>
-                          </div>
-                                                    <div class="roadmap-node">
-                              <div class="roadmap-content">
-                                  <h4>AI Engineer Intern</h4>
-                                  <div class="d-flex justify-content-between align-items-center">
-                                      <h5>Tecnotree Corporation</h5>
-                                      <div class="roadmap-date" style="font-weight: bold; margin-left: 20px;">April 2024 – June 2024<br>Hyderabad, India
-                                      </div>
-                                  </div>
-                                  <br>
-                                  <ul>
-                                      <li>Developed a RAG Evaluation Pipeline using MLFlow and LangChain to evaluate an existing RAG System</li>
-                                      <li>Increased recommendation accuracy by 38% by implementing a Collaborative Filtering approach.</li>
-                                      <li>Investigated the potential of incorporating online Reinforcement Learning (RL) techniques for dynamic recommendation generation.</li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <!-- Add more nodes as needed -->
-                      </div>
-                  </div>
-              </div>
-            
-              <div class="container-fluid">
-                <h6>Projects</h6>
-                <br>
-                <div class="container">
-                    <div class="hr">
-                        <div class="row"></div>
-                    </div>
-                    <br>
-                    <div class="projects">
-                        
-                        <div class="project-item">
-                            <h4>Crack Detection and Segmentation</h4>
-                            <div class="project-details">
-                                <span class="project-stack">Stack: Python, PyTorch</span>
-                                <!-- <span class="project-date">Completed: 04/2024</span> -->
-                            </div>
-                            <p class="project-description">• Segmentation of structural defects using U-NET architecture</p>
-                            <p class="project-description">• Visit the project's <a href="https://github.com/JayantToleti/CrackSegmentationDL" target="_blank"> github repo</a> for more details. </p>
-                        </div>
-                        
-                        
-                        <div class="project-item">
-                            <h4>Grammar Error Correction</h4>
-                            <div class="project-details">
-                                <span class="project-stack">Stack: Python, Jupyter, Transformers</span>
-                                <!-- <span class="project-date">Completed: 12/2023</span> -->
-                            </div>
-                            <p class="project-description">• Utilizing Google's T5 model for grammatical error correction.</p>
-                            <p class="project-description">•
-                                Published in ICSTCEE 2024. <a href="https://ieeexplore.ieee.org/document/10584963" target="_blank">Read here.</a>
-                              </p>
-                              
-                        </div>
-                    
-                        <div class="project-item">
-                            <h4>Drug CardioToxicity Analysis</h4>
-                            <div class="project-details">
-                                <span class="project-stack">Stack: Tensorflow, Keras</span>
-                                <!-- <span class="project-date">Completed: 08/2023</span> -->
-                            </div>
-                            <p class="project-description">• Implemented a Graph Neural Network to to foresee medication-induced hERG-related cardiotoxicity.</p>
-                            <p class="project-description">• <a href="https://github.com/JayantToleti/DrugCardiotoxicity">GitHub</a></p>
-
-                        </div>
-                        <div class="project-item">
-                            <h4>Collaborative White Board App</h4>
-                            <div class="project-details">
-                                <span class="project-stack">Stack: Tailwind, NextJS</span>
-                                <!-- <span class="project-date">Completed: 08/2024</span> -->
-                            </div>
-                            <p class="project-description">A simple collaborative whiteboard app that updates in realtime</p>
-                            <p class="project-descrpition">Try it out <a href="https://multi-user-wb.vercel.app/">here.</a></p>
-                        </div>
-                        <!-- Add more project items as needed -->
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="view-all-projects">
-                    <a href="https://github.com/JayantToleti" class="btn-view-all">View All Projects in my Github</a>
-                </div>
-            </div>
-            <br> 
-
-            <div class="container-fluid">
-                <h6>Publications</h6>
-                <br>
-                <div class="container">
-                    <div class="hr">
-                        <div class="row"></div>
-                    </div>
-                    <br>
-                    <div class="publications">
-                        <div class="publication-item">
-                            <img src="Assets\IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
-                            <h4>Developing Robust Crypto-Currency Trading Strategies: A Fusion of Machine Learning and Hidden Markov Modelling for Enhanced Performance</h4>
-                            <p class="conference-name">2024 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT)</p>
-                            <a href="https://doi.org/10.1109/CONECCT62155.2024.10677046" class="doi-link" target="_blank">DOI Link</a>
-                        </div>
-                        <div class="publication-item">
-                            <img src="Assets\IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
-                            <h4>Sentiment-Driven Predictive Models for Nifty 50 Stock Market Fluctuations: A Time Series Analysis Perspective</h4>
-                            <p class="conference-name">2024 IEEE International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)</p>
-                            <a href="https://doi.org/10.1109/ICITEICS61368.2024.10625537" class="doi-link" target="_blank">DOI Link</a>
-                        </div>
-                        <div class="publication-item">
-                            <img src="Assets\IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
-                            <h4>Towards Fluent Expression: The Impact of Deep Learning in Grammar Correction</h4>
-                            <p class="conference-name">2023 Fourth International Conference on Smart Technologies in Computing, Electrical and Electronics (ICSTCEE)</p>
-                            <a href="https://doi.org/10.1109/ICSTCEE60504.2023.10584963" class="doi-link" target="_blank">DOI Link</a>
-                        </div>
-                        <div class="publication-item">
-                            <img src="Assets\IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
-                            <h4>Generalized Deep-learning Models to Classify Allen Telescope Data</h4>
-                            <p class="conference-name">2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)</p>
-                            <a href="https://doi.org/10.1109/ICCCNT56998.2023.10306700" class="doi-link" target="_blank">DOI Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-
-
-            <!--------------- skills section starts here --------------->
-            <br>
-            <br>
-            <div class="container-fluid">
-                <h6>Skills</h6>
-                <br>
-                <div class="container">
-                    <div class="hr">
-                        <div class="row"></div>
-                    </div>
-                    <br>
-                    <ul class="skills-list">
-                        <!-- Languages -->
-                        <li>
-                            <i class="fab fa-python"></i>
-                            <span>Python</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-code"></i>
-                            <span>C++</span>
-                        </li>
-                        <!-- Web Development Languages -->
-                        <li>
-                            <i class="fab fa-html5"></i>
-                            <span>HTML</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-css3-alt"></i>
-                            <span>CSS</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-js-square"></i>
-                            <span>JavaScript</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-react"></i>
-                            <span>React</span>
-                        </li>
-                        <!-- Tools for Web Development -->
-                        <li>
-                            <i class="fab fa-docker"></i>
-                            <span>Docker</span>
-                        </li>
-                        <!-- Version Control -->
-                        <li>
-                            <i class="fas fa-code-branch"></i>
-                            <span>Git</span>
-                        </li>
-                        <!-- ML Libraries -->
-                        <li>
-                            <i class="fas fa-brain"></i>
-                            <span>Scikit-learn</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-robot"></i>
-                            <span>TensorFlow</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-cogs"></i>
-                            <span>Keras</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-database"></i>
-                            <span>Pandas</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-square-root-alt"></i>
-                            <span>NumPy</span>
-                        </li>
-                        <!-- Additional Programming Language -->
-                        
-                        <!-- Project Management Tool -->
-                        <li>
-                            <i class="fas fa-project-diagram"></i>
-                            <span>MLFlow</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <style>
-                .skills-list {
-                    list-style: none;
-                    padding: 0;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-                .skills-list li {
-                    display: flex;
-                    align-items: center;
-                    margin: 10px 20px;
-                    font-size: 24px;
-                }
-                .skills-list i {
-                    font-size: 40px;
-                    margin-right: 10px;
-                }
-                .skills-list span {
-                    font-size: 24px;
-                }
-            </style>
-            
-              
-              <!-- Add some custom CSS to style the skills list -->
-              <style>
-                  .skills-list {
-                      list-style: none;
-                      padding: 0;
-                      display: flex;
-                      flex-wrap: wrap;
-                      justify-content: center;
-                  }
-                  .skills-list li {
-                      display: flex;
-                      align-items: center;
-                      margin: 10px 20px;
-                      font-size: 24px;
-                  }
-                  .skills-list i {
-                      font-size: 40px;
-                      margin-right: 10px;
-                  }
-                  .skills-list span {
-                      font-size: 24px;
-                  }
-              </style>
-              
-              <br>
-        <br>
-        <div class="container-fluid">
-            <h6>Achievements</h6>
-            <br>
-            <div class="container">
-                <div class="hr">
-                    <div class="row"></div>
-                </div>
-                <br>
-                <div class="achievements">
-                    <div class="achievement-item">
-                        <i class="fas fa-trophy"></i>
-                        <span class="achievement-text">Published Research on Radio Signal Classification using DL methods in the 14th ICCCNT Conference</span>
-                    </div>
-                    <div class="achievement-item">
-                        <i class="fas fa-book-reader"></i>
-                        <span class="achievement-text">Engaged in Amazon ML Summer School 3rd Edition in 2023</span>
-                    </div>
-                    <div class="achievement-item">
-                        <i class="fas fa-medal"></i>
-                        <span class="achievement-text">Finished 3rd out of 2000 in the Intel Unnati Rapid Summer Challenge 2022, leading a team to overcome complex challenges in hosting multiple Tenants on FPGAs, resulting in breakthrough solutions and recognition</span>
-                    </div>
-                </div>
-            </div>
+    <!-- hero -->
+    <div class="hero">
+      <div class="header">
+        <img src="Assets/Jayant_Toleti.jpg" alt="Jayant Toleti" class="header-image">
+        <div>
+          <h1>Jayant Toleti</h1>
+          <h5>Hyderabad, India</h5>
         </div>
-
-
-
-            <!--------------- footer starts here --------------->
-            <div class="footer">
-                  <div class="container">
-                        <br><br>
-                        <div class="hr">
-                              <div class="row"></div>
-                        </div>
-                        <br><br>
-                        <div class="info">
-                              <div class="row">
-                                    <div class="col-lg-7" id="media">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">Connect with me</p>
-                                          <ul>
-                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">
-                                                      <a href="https://github.com/JayantToleti" target="_blank">GitHub</a>
-                                                </li>
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">
-                                                      <a href="https://linkedin.com/in/JayantToleti" target="_blank">LinkedIn</a>
-                                                </li>
-                                                <li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">
-                                                      <a href="mailto:jtoleti@gmail.com" target="_blank">Mail</a>
-                                                </li>
-                                          </ul>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!--------------- footer ends here --------------->
-
-            <br><br><br><br>
-
       </div>
+    </div>
+    <div class="scroll-down"></div>
 
-      <!-- greensock cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <!-- about -->
+    <div class="container-fluid">
+      <br><br><br>
+      <h6><b>About Me</b></h6>
+      <div class="container">
+        <br>
+        <div class="hr"><div class="row"></div></div>
+        <br>
+        <p>Hello! I'm Jayant Toleti, a passionate AI enthusiast and an aspiring engineer with a keen interest in developing innovative solutions using artificial intelligence and machine learning. Currently, I'm pursuing my Bachelor's in Computer Science and Engineering with a focus on Artificial Intelligence at Amrita Vishwa Vidyapeetham, Chennai, India.</p>
+        <p>I am always eager to learn and grow, continually seeking opportunities to apply my skills in meaningful ways. Whether it's through collaborative projects, internships, or personal endeavors, I strive to make a positive impact in the field of AI and beyond.</p>
+      </div>
+    </div>
+    <br><br>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
+    <!-- experience -->
+    <div class="container-fluid">
+      <h6>Experience</h6>
+      <div class="container">
+        <br>
+        <div class="hr"><div class="row"></div></div>
+        <br>
+        <div class="roadmap">
+          <div class="roadmap-node">
+            <div class="roadmap-content">
+              <h4>Software Development Engineer Intern</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <h5>IBM Cloud</h5>
+                <div class="roadmap-date">January 2025 – July 2025<br>Bengaluru, India</div>
+              </div>
+              <br>
+              <ul>
+                <li>Developed a Capacity Monitoring tool for Network Links present in data-centers across the globe.</li>
+                <li>Improved Root-Cause Analysis and simplified troubleshooting by providing real-time insights into link utilization trends and historical anomalies.</li>
+                <li>Built intuitive UI components for SSOT to enable Bulk actions across network interfaces, streamlining operational workflows.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="roadmap-node">
+            <div class="roadmap-content">
+              <h4>AI Engineer Intern</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <h5>Tecnotree Corporation</h5>
+                <div class="roadmap-date">April 2024 – June 2024<br>Hyderabad, India</div>
+              </div>
+              <br>
+              <ul>
+                <li>Developed a RAG Evaluation Pipeline using MLFlow and LangChain to evaluate an existing RAG System.</li>
+                <li>Increased recommendation accuracy by 38% by implementing a Collaborative Filtering approach.</li>
+                <li>Investigated the potential of incorporating online Reinforcement Learning (RL) techniques for dynamic recommendation generation.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      // navigation starts here
+    <!-- projects -->
+    <div class="container-fluid">
+      <h6>Projects</h6>
+      <br>
+      <div class="container">
+        <div class="hr"><div class="row"></div></div>
+        <br>
+        <div class="projects">
+          <div class="project-item">
+            <h4>Crack Detection and Segmentation</h4>
+            <div class="project-details">
+              <span class="project-stack">Stack: Python, PyTorch</span>
+            </div>
+            <p class="project-description">• Segmentation of structural defects using U-NET architecture</p>
+            <p class="project-description">• Visit the project's <a href="https://github.com/JayantToleti/CrackSegmentationDL" target="_blank">github repo</a> for more details.</p>
+          </div>
+          <div class="project-item">
+            <h4>Grammar Error Correction</h4>
+            <div class="project-details">
+              <span class="project-stack">Stack: Python, Jupyter, Transformers</span>
+            </div>
+            <p class="project-description">• Utilizing Google's T5 model for grammatical error correction.</p>
+            <p class="project-description">• Published in ICSTCEE 2024. <a href="https://ieeexplore.ieee.org/document/10584963" target="_blank">Read here.</a></p>
+          </div>
+          <div class="project-item">
+            <h4>Drug CardioToxicity Analysis</h4>
+            <div class="project-details">
+              <span class="project-stack">Stack: Tensorflow, Keras</span>
+            </div>
+            <p class="project-description">• Implemented a Graph Neural Network to foresee medication-induced hERG-related cardiotoxicity.</p>
+            <p class="project-description">• <a href="https://github.com/JayantToleti/DrugCardiotoxicity">GitHub</a></p>
+          </div>
+          <div class="project-item">
+            <h4>Collaborative White Board App</h4>
+            <div class="project-details">
+              <span class="project-stack">Stack: Tailwind, NextJS</span>
+            </div>
+            <p class="project-description">A simple collaborative whiteboard app that updates in realtime.</p>
+            <p class="project-description">Try it out <a href="https://multi-user-wb.vercel.app/">here.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="view-all-projects">
+        <a href="https://github.com/JayantToleti" class="btn-view-all">View All Projects in my Github</a>
+      </div>
+    </div>
+    <br>
 
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+    <!-- publications -->
+    <div class="container-fluid">
+      <h6>Publications</h6>
+      <br>
+      <div class="container">
+        <div class="hr"><div class="row"></div></div>
+        <br>
+        <div class="publications">
+          <div class="publication-item">
+            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+            <h4>Developing Robust Crypto-Currency Trading Strategies: A Fusion of Machine Learning and Hidden Markov Modelling for Enhanced Performance</h4>
+            <p class="conference-name">2024 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT)</p>
+            <a href="https://doi.org/10.1109/CONECCT62155.2024.10677046" class="doi-link" target="_blank">DOI Link</a>
+          </div>
+          <div class="publication-item">
+            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+            <h4>Sentiment-Driven Predictive Models for Nifty 50 Stock Market Fluctuations: A Time Series Analysis Perspective</h4>
+            <p class="conference-name">2024 IEEE International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)</p>
+            <a href="https://doi.org/10.1109/ICITEICS61368.2024.10625537" class="doi-link" target="_blank">DOI Link</a>
+          </div>
+          <div class="publication-item">
+            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+            <h4>Towards Fluent Expression: The Impact of Deep Learning in Grammar Correction</h4>
+            <p class="conference-name">2023 Fourth International Conference on Smart Technologies in Computing, Electrical and Electronics (ICSTCEE)</p>
+            <a href="https://doi.org/10.1109/ICSTCEE60504.2023.10584963" class="doi-link" target="_blank">DOI Link</a>
+          </div>
+          <div class="publication-item">
+            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+            <h4>Generalized Deep-learning Models to Classify Allen Telescope Data</h4>
+            <p class="conference-name">2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)</p>
+            <a href="https://doi.org/10.1109/ICCCNT56998.2023.10306700" class="doi-link" target="_blank">DOI Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+    <!-- skills -->
+    <br><br>
+    <div class="container-fluid">
+      <h6>Skills</h6>
+      <br>
+      <div class="container">
+        <div class="hr"><div class="row"></div></div>
+        <br>
+        <ul class="skills-list">
+          <li><i class="fab fa-python"></i><span>Python</span></li>
+          <li><i class="fas fa-code"></i><span>C++</span></li>
+          <li><i class="fab fa-html5"></i><span>HTML</span></li>
+          <li><i class="fab fa-css3-alt"></i><span>CSS</span></li>
+          <li><i class="fab fa-js-square"></i><span>JavaScript</span></li>
+          <li><i class="fab fa-react"></i><span>React</span></li>
+          <li><i class="fab fa-docker"></i><span>Docker</span></li>
+          <li><i class="fas fa-code-branch"></i><span>Git</span></li>
+          <li><i class="fas fa-brain"></i><span>Scikit-learn</span></li>
+          <li><i class="fas fa-robot"></i><span>TensorFlow</span></li>
+          <li><i class="fas fa-cogs"></i><span>Keras</span></li>
+          <li><i class="fas fa-database"></i><span>Pandas</span></li>
+          <li><i class="fas fa-square-root-alt"></i><span>NumPy</span></li>
+          <li><i class="fas fa-project-diagram"></i><span>MLFlow</span></li>
+        </ul>
+      </div>
+    </div>
 
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+    <br><br>
 
-      // navigation ends here
+    <!-- achievements -->
+    <div class="container-fluid">
+      <h6>Achievements</h6>
+      <br>
+      <div class="container">
+        <div class="hr"><div class="row"></div></div>
+        <br>
+        <div class="achievements">
+          <div class="achievement-item">
+            <i class="fas fa-trophy"></i>
+            <span class="achievement-text">Published Research on Radio Signal Classification using DL methods in the 14th ICCCNT Conference</span>
+          </div>
+          <div class="achievement-item">
+            <i class="fas fa-book-reader"></i>
+            <span class="achievement-text">Engaged in Amazon ML Summer School 3rd Edition in 2023</span>
+          </div>
+          <div class="achievement-item">
+            <i class="fas fa-medal"></i>
+            <span class="achievement-text">Finished 3rd out of 2000 in the Intel Unnati Rapid Summer Challenge 2022, leading a team to overcome complex challenges in hosting multiple Tenants on FPGAs, resulting in breakthrough solutions and recognition</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      // nav animation
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <br><br>
+        <div class="hr"><div class="row"></div></div>
+        <br><br>
+        <div class="info">
+          <div class="row">
+            <div class="col-lg-7" id="media">
+              <p>Connect with me</p>
+              <ul>
+                <li id="fb"><a href="https://github.com/JayantToleti" target="_blank">GitHub</a></li>
+                <li id="ig"><a href="https://linkedin.com/in/JayantToleti" target="_blank">LinkedIn</a></li>
+                <li id="tw"><a href="mailto:jtoleti@gmail.com" target="_blank">Mail</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
+    <br><br><br><br>
+  </div>
 
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
-
-      // nav animation ends
-
-      new WOW().init();
-
-      </script>
+  <script>
+    var toggle = document.getElementById('toggle');
+    var resize = document.getElementById('resize');
+    var closeBtn = document.querySelector('.close-btn');
+    toggle.addEventListener('click', function() { resize.classList.toggle('active'); });
+    closeBtn.addEventListener('click', function() { resize.classList.remove('active'); });
+    document.querySelectorAll('#resize ul li a').forEach(function(a) {
+      a.addEventListener('click', function() { resize.classList.remove('active'); });
+    });
+  </script>
 </body>
 </html>
