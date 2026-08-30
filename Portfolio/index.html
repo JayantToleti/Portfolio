@@ -10,260 +10,228 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+
+  <!-- nav -->
+  <nav>
+    <span id="brand"><a href="index.html">Jayant Toleti</a></span>
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://github.com/JayantToleti" target="_blank">GitHub</a></li>
+      <li><a href="Assets/Jayant_Toleti_Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+    <div id="toggle">menu</div>
+  </nav>
+
+  <div id="resize">
+    <div class="close-btn">close</div>
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://github.com/JayantToleti" target="_blank">GitHub</a></li>
+      <li><a href="Assets/Jayant_Toleti_Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+  </div>
+
   <div class="wrapper">
-
-    <!-- navbar -->
-    <nav>
-      <span id="brand"><a href="index.html">Jayant Toleti</a></span>
-      <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="https://github.com/JayantToleti">Github</a></li>
-        <li><a href="Assets/Jayant_Toleti_Resume.pdf">Resume</a></li>
-      </ul>
-      <div id="toggle"><div class="span">Menu</div></div>
-    </nav>
-
-    <div id="resize">
-      <div class="close-btn">close</div>
-      <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="https://github.com/JayantToleti">Github</a></li>
-        <li><a href="Assets/Jayant_Toleti_Resume.pdf">Resume</a></li>
-      </ul>
-    </div>
 
     <!-- hero -->
     <div class="hero">
       <div class="header">
         <img src="Assets/Jayant_Toleti.jpg" alt="Jayant Toleti" class="header-image">
-        <div>
+        <div class="header-text">
           <h1>Jayant Toleti</h1>
-          <h5>Hyderabad, India</h5>
+          <h5>Bengaluru, India</h5>
+          <p class="tagline"><span id="typed-role"></span><span class="cursor"></span></p>
         </div>
       </div>
     </div>
     <div class="scroll-down"></div>
 
     <!-- about -->
-    <div class="container-fluid">
-      <br><br><br>
-      <h6><b>About Me</b></h6>
-      <div class="container">
-        <br>
-        <div class="hr"><div class="row"></div></div>
-        <br>
-        <p>Hello! I'm Jayant Toleti, a passionate AI enthusiast and an aspiring engineer with a keen interest in developing innovative solutions using artificial intelligence and machine learning. Currently, I'm pursuing my Bachelor's in Computer Science and Engineering with a focus on Artificial Intelligence at Amrita Vishwa Vidyapeetham, Chennai, India.</p>
-        <p>I am always eager to learn and grow, continually seeking opportunities to apply my skills in meaningful ways. Whether it's through collaborative projects, internships, or personal endeavors, I strive to make a positive impact in the field of AI and beyond.</p>
+    <div class="section">
+      <p class="section-label">About</p>
+      <div class="about-text">
+        <p>I am a Software Developer and CS undergraduate at Amrita Vishwa Vidyapeetham. I help build cloud-native and distributed systems across Kubernetes, network observability, and machine learning. My work spans production infrastructure, automation, telemetry pipelines, and applied AI with a focus on building reliable, scalable software that solves real-world engineering problems.</p>
       </div>
     </div>
-    <br><br>
 
     <!-- experience -->
-    <div class="container-fluid">
-      <h6>Experience</h6>
-      <div class="container">
-        <br>
-        <div class="hr"><div class="row"></div></div>
-        <br>
-        <div class="roadmap">
-          <div class="roadmap-node">
-            <div class="roadmap-content">
-              <h4>Software Development Engineer Intern</h4>
-              <div class="d-flex justify-content-between align-items-center">
-                <h5>IBM Cloud</h5>
-                <div class="roadmap-date">January 2025 – July 2025<br>Bengaluru, India</div>
-              </div>
-              <br>
-              <ul>
-                <li>Developed a Capacity Monitoring tool for Network Links present in data-centers across the globe.</li>
-                <li>Improved Root-Cause Analysis and simplified troubleshooting by providing real-time insights into link utilization trends and historical anomalies.</li>
-                <li>Built intuitive UI components for SSOT to enable Bulk actions across network interfaces, streamlining operational workflows.</li>
-              </ul>
-            </div>
+    <div class="section">
+      <p class="section-label">Experience</p>
+      <div class="exp-list">
+
+        <div class="exp-item current">
+          <div class="exp-header">
+            <h3 class="exp-title">Software Development Engineer — NetTools <span class="badge-now">NOW</span></h3>
+            <span class="exp-date">July 2025 – Present</span>
           </div>
-          <div class="roadmap-node">
-            <div class="roadmap-content">
-              <h4>AI Engineer Intern</h4>
-              <div class="d-flex justify-content-between align-items-center">
-                <h5>Tecnotree Corporation</h5>
-                <div class="roadmap-date">April 2024 – June 2024<br>Hyderabad, India</div>
-              </div>
-              <br>
-              <ul>
-                <li>Developed a RAG Evaluation Pipeline using MLFlow and LangChain to evaluate an existing RAG System.</li>
-                <li>Increased recommendation accuracy by 38% by implementing a Collaborative Filtering approach.</li>
-                <li>Investigated the potential of incorporating online Reinforcement Learning (RL) techniques for dynamic recommendation generation.</li>
-              </ul>
-            </div>
-          </div>
+          <p class="exp-company">IBM Cloud · Bengaluru, India</p>
+          <ul>
+            <li>Leading OpenShift Container Platform (OCP) migration across acquired clusters; conducted initial PoC validation and configured Citrix Ingress Controllers for edge traffic routing.</li>
+            <li>Engineered K8s manifests, CD pipelines, and central logging telemetry across data-center clusters to execute end-to-end migration of 8 core observability microservices.</li>
+            <li>Expanded network observability to new NGDC Mumbai zones by deploying core microservices and validating end-to-end log aggregation pipelines.</li>
+            <li>Integrated automated Slack alerting into the Capacity Analysis Dashboard to detect network utilization bottlenecks in real-time.</li>
+            <li>Developing an internal RAG system over NetTools documentation to accelerate technical onboarding and reduce support tickets.</li>
+          </ul>
         </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3 class="exp-title">Software Development Engineer Intern</h3>
+            <span class="exp-date">January 2025 – July 2025</span>
+          </div>
+          <p class="exp-company">IBM Cloud · Bengaluru, India</p>
+          <ul>
+            <li>Developed a Capacity Monitoring tool for network links across global data-centers.</li>
+            <li>Improved Root-Cause Analysis by providing real-time insights into link utilization trends and historical anomalies.</li>
+            <li>Built UI components for SSOT to enable bulk actions across network interfaces, streamlining operational workflows.</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3 class="exp-title">AI Engineer Intern</h3>
+            <span class="exp-date">April 2024 – June 2024</span>
+          </div>
+          <p class="exp-company">Tecnotree Corporation · Hyderabad, India</p>
+          <ul>
+            <li>Developed a RAG Evaluation Pipeline using MLFlow and LangChain to evaluate an existing RAG system.</li>
+            <li>Increased recommendation accuracy by 38% via a Collaborative Filtering approach.</li>
+            <li>Investigated online Reinforcement Learning techniques for dynamic recommendation generation.</li>
+          </ul>
+        </div>
+
       </div>
     </div>
 
     <!-- projects -->
-    <div class="container-fluid">
-      <h6>Projects</h6>
-      <br>
-      <div class="container">
-        <div class="hr"><div class="row"></div></div>
-        <br>
-        <div class="projects">
-          <div class="project-item">
-            <h4>Crack Detection and Segmentation</h4>
-            <div class="project-details">
-              <span class="project-stack">Stack: Python, PyTorch</span>
-            </div>
-            <p class="project-description">• Segmentation of structural defects using U-NET architecture</p>
-            <p class="project-description">• Visit the project's <a href="https://github.com/JayantToleti/CrackSegmentationDL" target="_blank">github repo</a> for more details.</p>
-          </div>
-          <div class="project-item">
-            <h4>Grammar Error Correction</h4>
-            <div class="project-details">
-              <span class="project-stack">Stack: Python, Jupyter, Transformers</span>
-            </div>
-            <p class="project-description">• Utilizing Google's T5 model for grammatical error correction.</p>
-            <p class="project-description">• Published in ICSTCEE 2024. <a href="https://ieeexplore.ieee.org/document/10584963" target="_blank">Read here.</a></p>
-          </div>
-          <div class="project-item">
-            <h4>Drug CardioToxicity Analysis</h4>
-            <div class="project-details">
-              <span class="project-stack">Stack: Tensorflow, Keras</span>
-            </div>
-            <p class="project-description">• Implemented a Graph Neural Network to foresee medication-induced hERG-related cardiotoxicity.</p>
-            <p class="project-description">• <a href="https://github.com/JayantToleti/DrugCardiotoxicity">GitHub</a></p>
-          </div>
-          <div class="project-item">
-            <h4>Collaborative White Board App</h4>
-            <div class="project-details">
-              <span class="project-stack">Stack: Tailwind, NextJS</span>
-            </div>
-            <p class="project-description">A simple collaborative whiteboard app that updates in realtime.</p>
-            <p class="project-description">Try it out <a href="https://multi-user-wb.vercel.app/">here.</a></p>
-          </div>
+    <div class="section">
+      <p class="section-label">Projects</p>
+      <div class="projects">
+        <div class="project-item">
+          <h4>Crack Detection &amp; Segmentation</h4>
+          <span class="project-stack">Python · PyTorch</span>
+          <p class="project-description">Structural defect segmentation using U-NET architecture.</p>
+          <p class="project-description"><a href="https://github.com/JayantToleti/CrackSegmentationDL" target="_blank">GitHub →</a></p>
+        </div>
+        <div class="project-item">
+          <h4>Grammar Error Correction</h4>
+          <span class="project-stack">Python · Transformers</span>
+          <p class="project-description">T5-based grammatical error correction. Published at ICSTCEE 2024.</p>
+          <p class="project-description"><a href="https://ieeexplore.ieee.org/document/10584963" target="_blank">Paper →</a></p>
+        </div>
+        <div class="project-item">
+          <h4>Drug CardioToxicity Analysis</h4>
+          <span class="project-stack">TensorFlow · Keras</span>
+          <p class="project-description">Graph Neural Network to predict medication-induced hERG cardiotoxicity.</p>
+          <p class="project-description"><a href="https://github.com/JayantToleti/DrugCardiotoxicity" target="_blank">GitHub →</a></p>
+        </div>
+        <div class="project-item">
+          <h4>Collaborative Whiteboard</h4>
+          <span class="project-stack">Next.js · Tailwind</span>
+          <p class="project-description">Real-time multi-user whiteboard app.</p>
+          <p class="project-description"><a href="https://multi-user-wb.vercel.app/" target="_blank">Live →</a></p>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
       <div class="view-all-projects">
-        <a href="https://github.com/JayantToleti" class="btn-view-all">View All Projects in my Github</a>
+        <a href="https://github.com/JayantToleti" class="btn-view-all" target="_blank">All projects on GitHub →</a>
       </div>
     </div>
-    <br>
 
     <!-- publications -->
-    <div class="container-fluid">
-      <h6>Publications</h6>
-      <br>
-      <div class="container">
-        <div class="hr"><div class="row"></div></div>
-        <br>
-        <div class="publications">
-          <div class="publication-item">
-            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+    <div class="section">
+      <p class="section-label">Publications</p>
+      <div class="publications">
+        <div class="publication-item">
+          <img src="Assets/IEEE-xplore-logo.png" alt="IEEE" class="ieee-logo">
+          <div class="pub-body">
             <h4>Developing Robust Crypto-Currency Trading Strategies: A Fusion of Machine Learning and Hidden Markov Modelling for Enhanced Performance</h4>
-            <p class="conference-name">2024 IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT)</p>
-            <a href="https://doi.org/10.1109/CONECCT62155.2024.10677046" class="doi-link" target="_blank">DOI Link</a>
+            <p class="conference-name">IEEE CONECCT 2024</p>
+            <a href="https://doi.org/10.1109/CONECCT62155.2024.10677046" class="doi-link" target="_blank">DOI →</a>
           </div>
-          <div class="publication-item">
-            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+        </div>
+        <div class="publication-item">
+          <img src="Assets/IEEE-xplore-logo.png" alt="IEEE" class="ieee-logo">
+          <div class="pub-body">
             <h4>Sentiment-Driven Predictive Models for Nifty 50 Stock Market Fluctuations: A Time Series Analysis Perspective</h4>
-            <p class="conference-name">2024 IEEE International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)</p>
-            <a href="https://doi.org/10.1109/ICITEICS61368.2024.10625537" class="doi-link" target="_blank">DOI Link</a>
+            <p class="conference-name">IEEE ICITEICS 2024</p>
+            <a href="https://doi.org/10.1109/ICITEICS61368.2024.10625537" class="doi-link" target="_blank">DOI →</a>
           </div>
-          <div class="publication-item">
-            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+        </div>
+        <div class="publication-item">
+          <img src="Assets/IEEE-xplore-logo.png" alt="IEEE" class="ieee-logo">
+          <div class="pub-body">
             <h4>Towards Fluent Expression: The Impact of Deep Learning in Grammar Correction</h4>
-            <p class="conference-name">2023 Fourth International Conference on Smart Technologies in Computing, Electrical and Electronics (ICSTCEE)</p>
-            <a href="https://doi.org/10.1109/ICSTCEE60504.2023.10584963" class="doi-link" target="_blank">DOI Link</a>
+            <p class="conference-name">IEEE ICSTCEE 2023</p>
+            <a href="https://doi.org/10.1109/ICSTCEE60504.2023.10584963" class="doi-link" target="_blank">DOI →</a>
           </div>
-          <div class="publication-item">
-            <img src="Assets/IEEE-xplore-logo.png" alt="IEEE Logo" class="ieee-logo">
+        </div>
+        <div class="publication-item">
+          <img src="Assets/IEEE-xplore-logo.png" alt="IEEE" class="ieee-logo">
+          <div class="pub-body">
             <h4>Generalized Deep-learning Models to Classify Allen Telescope Data</h4>
-            <p class="conference-name">2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)</p>
-            <a href="https://doi.org/10.1109/ICCCNT56998.2023.10306700" class="doi-link" target="_blank">DOI Link</a>
+            <p class="conference-name">IEEE ICCCNT 2023</p>
+            <a href="https://doi.org/10.1109/ICCCNT56998.2023.10306700" class="doi-link" target="_blank">DOI →</a>
           </div>
         </div>
       </div>
     </div>
 
     <!-- skills -->
-    <br><br>
-    <div class="container-fluid">
-      <h6>Skills</h6>
-      <br>
-      <div class="container">
-        <div class="hr"><div class="row"></div></div>
-        <br>
-        <ul class="skills-list">
-          <li><i class="fab fa-python"></i><span>Python</span></li>
-          <li><i class="fas fa-code"></i><span>C++</span></li>
-          <li><i class="fab fa-html5"></i><span>HTML</span></li>
-          <li><i class="fab fa-css3-alt"></i><span>CSS</span></li>
-          <li><i class="fab fa-js-square"></i><span>JavaScript</span></li>
-          <li><i class="fab fa-react"></i><span>React</span></li>
-          <li><i class="fab fa-docker"></i><span>Docker</span></li>
-          <li><i class="fas fa-code-branch"></i><span>Git</span></li>
-          <li><i class="fas fa-brain"></i><span>Scikit-learn</span></li>
-          <li><i class="fas fa-robot"></i><span>TensorFlow</span></li>
-          <li><i class="fas fa-cogs"></i><span>Keras</span></li>
-          <li><i class="fas fa-database"></i><span>Pandas</span></li>
-          <li><i class="fas fa-square-root-alt"></i><span>NumPy</span></li>
-          <li><i class="fas fa-project-diagram"></i><span>MLFlow</span></li>
-        </ul>
-      </div>
+    <div class="section">
+      <p class="section-label">Skills</p>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Next.js</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>Git</li>
+        <li>PyTorch</li>
+        <li>TensorFlow</li>
+        <li>Scikit-learn</li>
+        <li>LangChain</li>
+        <li>MLFlow</li>
+        <li>Pandas</li>
+        <li>NumPy</li>
+      </ul>
     </div>
 
-    <br><br>
-
     <!-- achievements -->
-    <div class="container-fluid">
-      <h6>Achievements</h6>
-      <br>
-      <div class="container">
-        <div class="hr"><div class="row"></div></div>
-        <br>
-        <div class="achievements">
-          <div class="achievement-item">
-            <i class="fas fa-trophy"></i>
-            <span class="achievement-text">Published Research on Radio Signal Classification using DL methods in the 14th ICCCNT Conference</span>
-          </div>
-          <div class="achievement-item">
-            <i class="fas fa-book-reader"></i>
-            <span class="achievement-text">Engaged in Amazon ML Summer School 3rd Edition in 2023</span>
-          </div>
-          <div class="achievement-item">
-            <i class="fas fa-medal"></i>
-            <span class="achievement-text">Finished 3rd out of 2000 in the Intel Unnati Rapid Summer Challenge 2022, leading a team to overcome complex challenges in hosting multiple Tenants on FPGAs, resulting in breakthrough solutions and recognition</span>
-          </div>
+    <div class="section">
+      <p class="section-label">Achievements</p>
+      <div class="achievements">
+        <div class="achievement-item">
+          <i class="fas fa-trophy"></i>
+          <span class="achievement-text"><span class="hl">3rd place out of 2,000 teams</span> — Intel Unnati Rapid Summer Challenge 2022 (multi-tenant FPGA hosting)</span>
+        </div>
+        <div class="achievement-item">
+          <i class="fas fa-book-reader"></i>
+          <span class="achievement-text">Selected for <span class="hl">Amazon ML Summer School</span> 3rd Edition, 2023</span>
+        </div>
+        <div class="achievement-item">
+          <i class="fas fa-broadcast-tower"></i>
+          <span class="achievement-text">Published research on radio signal classification at <span class="hl">14th IEEE ICCCNT Conference</span></span>
         </div>
       </div>
     </div>
 
     <!-- footer -->
-    <div class="footer">
-      <div class="container">
-        <br><br>
-        <div class="hr"><div class="row"></div></div>
-        <br><br>
-        <div class="info">
-          <div class="row">
-            <div class="col-lg-7" id="media">
-              <p>Connect with me</p>
-              <ul>
-                <li id="fb"><a href="https://github.com/JayantToleti" target="_blank">GitHub</a></li>
-                <li id="ig"><a href="https://linkedin.com/in/JayantToleti" target="_blank">LinkedIn</a></li>
-                <li id="tw"><a href="mailto:jtoleti@gmail.com" target="_blank">Mail</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <footer class="footer">
+      <p class="footer-label">Connect</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/JayantToleti" target="_blank">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/JayantToleti" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:jtoleti@gmail.com">Mail</a></li>
+        <li><a href="Assets/Jayant_Toleti_Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </footer>
 
-    <br><br><br><br>
   </div>
 
   <script>
+    // nav
     var toggle = document.getElementById('toggle');
     var resize = document.getElementById('resize');
     var closeBtn = document.querySelector('.close-btn');
@@ -272,6 +240,47 @@
     document.querySelectorAll('#resize ul li a').forEach(function(a) {
       a.addEventListener('click', function() { resize.classList.remove('active'); });
     });
+
+    // typewriter
+    var roles = [
+      'Software Developer',
+      'ML Researcher',
+      'Cloud Engineer'
+    ];
+    var el = document.getElementById('typed-role');
+    var roleIndex = 0;
+    var charIndex = 0;
+    var deleting = false;
+    var TYPE_SPEED = 75;
+    var DELETE_SPEED = 40;
+    var PAUSE_AFTER_TYPE = 3500;
+    var PAUSE_AFTER_DELETE = 40;
+
+    function tick() {
+      var current = roles[roleIndex];
+      if (!deleting) {
+        el.textContent = current.slice(0, charIndex + 1);
+        charIndex++;
+        if (charIndex === current.length) {
+          deleting = true;
+          setTimeout(tick, PAUSE_AFTER_TYPE);
+          return;
+        }
+        setTimeout(tick, TYPE_SPEED);
+      } else {
+        el.textContent = current.slice(0, charIndex - 1);
+        charIndex--;
+        if (charIndex === 0) {
+          deleting = false;
+          roleIndex = (roleIndex + 1) % roles.length;
+          setTimeout(tick, PAUSE_AFTER_DELETE);
+          return;
+        }
+        setTimeout(tick, DELETE_SPEED);
+      }
+    }
+    tick();
   </script>
+
 </body>
 </html>
